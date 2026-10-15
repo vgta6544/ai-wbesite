@@ -1,0 +1,329 @@
+{
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "Lumina Audio — 3D Holographic CGI Campaign",
+      "category": "CGI",
+      "description": "A futuristic CGI product commercial exploring acoustic refraction through metallic glass surfaces and floating kinetic soundwaves. Produced with ray-traced lighting and dynamic particle simulation.",
+      "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1633167606207-d840b5070fc2?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tools": [
+        "Blender 4.2",
+        "Cinema 4D",
+        "Octane Render",
+        "After Effects"
+      ],
+      "projectDate": "February 2026",
+      "client": "Lumina Acoustics",
+      "featured": true,
+      "sortOrder": 1,
+      "createdAt": "2026-02-15T12:00:00Z",
+      "updatedAt": "2026-02-15T12:00:00Z"
+    },
+    {
+      "id": "proj-2",
+      "title": "Aetheric Interactive Web Experience",
+      "category": "Websites",
+      "description": "Interactive portfolio and digital laboratory powered by Three.js WebGL shaders and React. Features 60FPS fluid physics simulations, custom audio design, and frictionless responsive layouts.",
+      "coverImage": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "tools": [
+        "React 19",
+        "TypeScript",
+        "Three.js",
+        "Tailwind CSS",
+        "GLSL"
+      ],
+      "projectDate": "January 2026",
+      "client": "Aetheric Studio",
+      "featured": true,
+      "sortOrder": 2,
+      "createdAt": "2026-01-20T14:00:00Z",
+      "updatedAt": "2026-01-20T14:00:00Z"
+    },
+    {
+      "id": "proj-3",
+      "title": "Kinetix Athletics — Bold Visual Identity",
+      "category": "Branding",
+      "description": "End-to-end brand transformation for high-performance apparel. Developed kinetic typography systems, physical packaging, custom hangtags, and an energetic neon orange and slate brand guide.",
+      "coverImage": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&w=1200&auto=format&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "tools": [
+        "Illustrator",
+        "Photoshop",
+        "Figma",
+        "InDesign"
+      ],
+      "projectDate": "December 2025",
+      "client": "Kinetix Apparel",
+      "featured": true,
+      "sortOrder": 3,
+      "createdAt": "2025-12-18T10:00:00Z",
+      "updatedAt": "2025-12-18T10:00:00Z"
+    },
+    {
+      "id": "proj-4",
+      "title": "HyperDrive Energy — UGC Ad Blitz Campaign",
+      "category": "UGC Ads",
+      "description": "High-performing short-form video advertisement suite engineered for TikTok and Instagram Reels. Combined dynamic motion typography, sound effects, and native hook pacing.",
+      "coverImage": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?q=80&w=1200&auto=format&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tools": [
+        "Premiere Pro",
+        "After Effects",
+        "CapCut Pro",
+        "DaVinci Resolve"
+      ],
+      "projectDate": "November 2025",
+      "client": "HyperDrive Beverage Co.",
+      "featured": false,
+      "sortOrder": 4,
+      "createdAt": "2025-11-28T09:00:00Z",
+      "updatedAt": "2025-11-28T09:00:00Z"
+    },
+    {
+      "id": "proj-5",
+      "title": "Chronos Smartwatch — CGI Product Launch",
+      "category": "CGI",
+      "description": "Precision 3D modeling and photorealistic close-ups showcasing brushed titanium bevels, sapphire crystal display reflections, and silicone strap micro-textures.",
+      "coverImage": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1200&auto=format&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "tools": [
+        "Blender 4.2",
+        "Cycles",
+        "Photoshop",
+        "Substance 3D Painter"
+      ],
+      "projectDate": "October 2025",
+      "client": "Chronos Wearables",
+      "featured": true,
+      "sortOrder": 5,
+      "createdAt": "2025-10-14T11:00:00Z",
+      "updatedAt": "2025-10-14T11:00:00Z"
+    },
+    {
+      "id": "proj-6",
+      "title": "Neon Horizon — Social Media Growth Kit",
+      "category": "Social Media",
+      "description": "Modular set of 30+ high-engagement Instagram carousels, animated story stickers, and YouTube thumbnail frameworks delivering cohesive aesthetic storytelling.",
+      "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "tools": [
+        "Photoshop",
+        "Figma",
+        "After Effects"
+      ],
+      "projectDate": "September 2025",
+      "client": "Horizon Media",
+      "featured": false,
+      "sortOrder": 6,
+      "createdAt": "2025-09-05T16:00:00Z",
+      "updatedAt": "2025-09-05T16:00:00Z"
+    },
+    {
+      "id": "proj-7",
+      "title": "Apex Financial — High-Convert FinTech Platform",
+      "category": "Websites",
+      "description": "Modern web app design and frontend implementation featuring interactive portfolio charts, dark glass UI aesthetic, seamless onboarding flow, and micro-interactions.",
+      "coverImage": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "tools": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Framer Motion"
+      ],
+      "projectDate": "August 2025",
+      "client": "Apex Financial Tech",
+      "featured": true,
+      "sortOrder": 7,
+      "createdAt": "2025-08-19T13:00:00Z",
+      "updatedAt": "2025-08-19T13:00:00Z"
+    },
+    {
+      "id": "proj-8",
+      "title": "Vortex Cyber Festival — Typographic Posters",
+      "category": "Graphic Design",
+      "description": "Series of large-format screenprint posters and digital billboards designed with custom experimental grid distortion, metallic inks, and futuristic brutalist layout.",
+      "coverImage": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1200&auto=format&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "tools": [
+        "Illustrator",
+        "Photoshop"
+      ],
+      "projectDate": "July 2025",
+      "client": "Vortex Sounds",
+      "featured": false,
+      "sortOrder": 8,
+      "createdAt": "2025-07-10T15:00:00Z",
+      "updatedAt": "2025-07-10T15:00:00Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "srv-1",
+      "title": "Logo Design",
+      "description": "Distinctive, memorable logos and dynamic vector marks crafted for modern brand recognition.",
+      "icon": "Sparkles",
+      "enabled": true,
+      "sortOrder": 1,
+      "createdAt": "2026-01-10T10:00:00Z",
+      "updatedAt": "2026-01-10T10:00:00Z"
+    },
+    {
+      "id": "srv-2",
+      "title": "Brand Identity",
+      "description": "Comprehensive brand systems including typography, color palettes, iconography, and guidelines.",
+      "icon": "Layers",
+      "enabled": true,
+      "sortOrder": 2,
+      "createdAt": "2026-01-10T10:00:00Z",
+      "updatedAt": "2026-01-10T10:00:00Z"
+    },
+    {
+      "id": "srv-3",
+      "title": "Social Media Design",
+      "description": "High-conversion carousel packs, Instagram grids, story visuals, and tailored platform assets.",
+      "icon": "Share2",
+      "enabled": true,
+      "sortOrder": 3,
+      "createdAt": "2026-01-10T10:00:00Z",
+      "updatedAt": "2026-01-10T10:00:00Z"
+    },
+    {
+      "id": "srv-4",
+      "title": "Flyers & Posters",
+      "description": "Striking promotional print and digital posters with bold typography and impactful composition.",
+      "icon": "FileText",
+      "enabled": true,
+      "sortOrder": 4,
+      "createdAt": "2026-01-10T10:00:00Z",
+      "updatedAt": "2026-01-10T10:00:00Z"
+    },
+    {
+      "id": "srv-5",
+      "title": "Business Cards",
+      "description": "Sleek, minimalist and modern card collateral with premium print finishes and QR integration.",
+      "icon": "CreditCard",
+      "enabled": true,
+      "sortOrder": 5,
+      "createdAt": "2026-01-10T10:00:00Z",
+      "updatedAt": "2026-01-10T10:00:00Z"
+    },
+    {
+      "id": "srv-6",
+      "title": "Thumbnail Design",
+      "description": "High-CTR YouTube and social media thumbnails engineered with clear visual focal points.",
+      "icon": "PlaySquare",
+      "enabled": true,
+      "sortOrder": 6,
+      "createdAt": "2026-01-10T10:00:00Z",
+      "updatedAt": "2026-01-10T10:00:00Z"
+    },
+    {
+      "id": "srv-7",
+      "title": "CGI Ads",
+      "description": "Hyper-realistic 3D product renders, surreal visual effects, and animated commercial reels.",
+      "icon": "Box",
+      "enabled": true,
+      "sortOrder": 7,
+      "createdAt": "2026-01-10T10:00:00Z",
+      "updatedAt": "2026-01-10T10:00:00Z"
+    },
+    {
+      "id": "srv-8",
+      "title": "UGC Ads",
+      "description": "Engaging, fast-paced vertical video ads optimized for TikTok, Reels, and paid digital campaigns.",
+      "icon": "Video",
+      "enabled": true,
+      "sortOrder": 8,
+      "createdAt": "2026-01-10T10:00:00Z",
+      "updatedAt": "2026-01-10T10:00:00Z"
+    },
+    {
+      "id": "srv-9",
+      "title": "Web Design",
+      "description": "User-centric UI/UX design, interactive wireframes, and responsive design systems in Figma.",
+      "icon": "Layout",
+      "enabled": true,
+      "sortOrder": 9,
+      "createdAt": "2026-01-10T10:00:00Z",
+      "updatedAt": "2026-01-10T10:00:00Z"
+    },
+    {
+      "id": "srv-10",
+      "title": "Web Development",
+      "description": "Production-ready full-stack web applications, custom interactive animations, and responsive builds.",
+      "icon": "Code",
+      "enabled": true,
+      "sortOrder": 10,
+      "createdAt": "2026-01-10T10:00:00Z",
+      "updatedAt": "2026-01-10T10:00:00Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1",
+      "name": "Elena Vance",
+      "email": "elena@novaproducts.co",
+      "subject": "3D CGI Product Ad for upcoming launch",
+      "message": "Hello Zohair, we saw your CGI work and were blown away. We are launching a new hardware smart ring next month and need a 30s 3D commercial animation with ray-traced materials. Could we schedule an introductory call?",
+      "status": "Read",
+      "createdAt": "2026-09-16T10:01:18.939Z"
+    },
+    {
+      "id": "msg-2",
+      "name": "Marcus Chen",
+      "email": "marcus@soliscapital.io",
+      "subject": "Custom Website Redesign and Brand System",
+      "message": "Hi Zohair, we are looking for a designer and developer who can revamp our venture capital landing page with interactive 3D WebGL touches and clean typography. Loved your work on Lumina!",
+      "status": "Read",
+      "createdAt": "2026-09-15T10:01:18.939Z"
+    }
+  ],
+  "settings": {
+    "id": "global",
+    "siteTitle": "Zohair — Graphic Designer, Web Developer & CGI Designer",
+    "professionalTitle": "Graphic Designer • Web Developer • CGI Designer • Content Creator",
+    "heroTitle": "Hi, I'm Zohair.",
+    "heroSubtitle": "Graphic Designer • Web Developer • CGI Designer • Content Creator",
+    "heroDescription": "Designing bold visuals, immersive digital experiences and creative websites that help brands stand out.",
+    "primaryCta": "View My Work",
+    "secondaryCta": "Let's Work Together",
+    "bio": "I am a multidisciplinary designer and creative technologist. Bridging the gap between brand identity, high-end 3D CGI, and functional web engineering, I collaborate with forward-thinking businesses to craft digital experiences that leave a lasting impact.",
+    "email": "zohair.creatives@gmail.com",
+    "whatsapp": "+1 (555) 389-9402",
+    "location": "Worldwide • Available for Remote & On-Site Projects",
+    "availabilityStatus": "Available for Selected Projects & Full-Time Contracts",
+    "isOnline": true,
+    "socialLinks": {
+      "instagram": "https://instagram.com/zohair.design",
+      "linkedin": "https://linkedin.com/in/zohair-creative"
+    },
+    "footerText": "© 2026 Zohair. All rights reserved. Crafted with precision.",
+    "updatedAt": "2026-09-16T14:01:18.938Z"
+  }
+}

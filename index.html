@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      (function() {
+        try {
+          var originalFetch = typeof window !== 'undefined' ? window.fetch : null;
+          var currentFetch = originalFetch ? originalFetch.bind(window) : null;
+
+          function installShim(target) {
+            if (!target) return;
+            try {
+              var desc = Object.getOwnPropertyDescriptor(target, 'fetch');
+              if (desc && !desc.configurable) return;
+              Object.defineProperty(target, 'fetch', {
+                get: function() {
+                  return currentFetch;
+                },
+                set: function(fn) {
+                  currentFetch = fn;
+                },
+                configurable: true,
+                enumerable: true
+              });
+            } catch (e) {}
+          }
+
+          if (typeof window !== 'undefined') {
+            installShim(window);
+          }
+          if (typeof Window !== 'undefined' && Window.prototype) {
+            installShim(Window.prototype);
+          }
+          if (typeof globalThis !== 'undefined' && globalThis !== window) {
+            installShim(globalThis);
+          }
+        } catch (err) {}
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zohair — Graphic Designer, Web Developer &amp; CGI Designer</title>
+    <meta name="description" content="Explore Zohair's portfolio of graphic design, web development, CGI advertising, branding and digital creative work." />
+    <meta property="og:title" content="Zohair — Graphic Designer, Web Developer &amp; CGI Designer" />
+    <meta property="og:description" content="Explore Zohair's portfolio of graphic design, web development, CGI advertising, branding and digital creative work." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Zohair — Graphic Designer, Web Developer &amp; CGI Designer" />
+    <meta name="twitter:description" content="Explore Zohair's portfolio of graphic design, web development, CGI advertising, branding and digital creative work." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+  </head>
+  <body class="bg-[#07090E] text-neutral-100 antialiased selection:bg-[#FF5500] selection:text-white min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
